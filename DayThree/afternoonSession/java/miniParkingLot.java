@@ -58,33 +58,11 @@ case 3:
  }
     
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-    for(int count = 0; count < parkingLot.length; count++){
-    
-    if(parkingLot[count] == 0){
-    
-    
-    }
-    System.out.print()
-
-
+  
 }
 
 }
 
 
 
-}
+
