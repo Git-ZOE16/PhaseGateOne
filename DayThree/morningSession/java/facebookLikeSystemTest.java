@@ -6,10 +6,10 @@ public class faceBookLikeApp {
     
     @Test
     public void testThatNoOneLikesThis() {
-        
+        String[] names = { "peter, paul, silas"}
         String expectedResult = "no likes";
-        String actualResult = 0;
-        assertEquals = (actualResult, ExpectedResult);
+        String actualResult = facebookLikeSystem.getFaceBookLikes(names);
+        assertEquals = (actualResult, expectedResult);
     }
     
     
@@ -17,7 +17,7 @@ public class faceBookLikeApp {
     public void testThatPeterLikesThis() {
         String[] name = "peter";
         String expectedResult = "likes";
-        String actualResult = 1;
+        String actualResult = facebookLikeSystem.getFaceBookLikes(names);
         assertEquals = (actualResult, ExpectedResult);
     }
     
@@ -25,7 +25,7 @@ public class faceBookLikeApp {
     public void testThatJacobAndAlexLikesThis() {
         String[] name = "Jacob , Alex";
         String expectedResult = "likes";
-        String actualResult = 2;
+        String actualResult = facebookLikeSystem.getFaceBookLikes(names);
        assertEquals = (actualResult, ExpectedResult);
     }
     
@@ -34,7 +34,7 @@ public class faceBookLikeApp {
     public void testThatMax,JohnAndMarkLikesThis() {
         String[] name = "Max , John, Mark";
         String expectedResult = "likes";
-        String actualResult = "3";
+        String actualResult = facebookLikeSystem.getFaceBookLikes(names);
        assertEquals = (actualResult, ExpectedResult);
     }
     
@@ -42,7 +42,7 @@ public class faceBookLikeApp {
      @Test
     public void testThatAlex,Jacob,MarkAndMaxLikesThis() {
         String[] name = "Alex,Jacob,Mark,Max";
-        String expectedResult = "likes";
-        String actualResult = "4";
+        String[] expectedResult = "likes";
+        String actualResult = facebookLikeSystem.getFaceBookLikes(names);
        assertEquals = (actualResult, ExpectedResult);
     }
