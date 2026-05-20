@@ -24,7 +24,8 @@ public class faceBookLikeApp {
     @Test
     public void testThatJacobAndAlexLikesThis() {
         String[] name = "Jacob , Alex";
-        String expectedResult = "2";
+        String expectedResult = "likes";
+        String actualResult = 2;
        assertEquals = (actualResult, ExpectedResult);
     }
     
@@ -32,7 +33,8 @@ public class faceBookLikeApp {
     @Test
     public void testThatMax,JohnAndMarkLikesThis() {
         String[] name = "Max , John, Mark";
-        String expectedResult = "3";
+        String expectedResult = "likes";
+        String actualResult = "3";
        assertEquals = (actualResult, ExpectedResult);
     }
     
@@ -40,6 +42,7 @@ public class faceBookLikeApp {
      @Test
     public void testThatAlex,Jacob,MarkAndMaxLikesThis() {
         String[] name = "Alex,Jacob,Mark,Max";
-        String expectedResult = "4";
+        String expectedResult = "likes";
+        String actualResult = "4";
        assertEquals = (actualResult, ExpectedResult);
     }
