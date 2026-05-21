@@ -13,3 +13,11 @@ public class kata{
 
  }
 }
+
+// String word = "\"Helloo World\"";
+// 
+// 
+//for(int name = 1; name <= 10; name++){
+// System.out.println(word);
+// 
+// }

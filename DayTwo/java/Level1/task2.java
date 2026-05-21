@@ -6,7 +6,9 @@ Scanner input = new Scanner(System.in);
 
 
 System.out.println("How old are you");
+
 int age = input.nextInt();
+
 int newAge = age + 5;
 
 System.out.println("you will be " +  newAge  +   "in five years time");
